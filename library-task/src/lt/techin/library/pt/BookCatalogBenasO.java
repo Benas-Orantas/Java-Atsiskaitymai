@@ -97,7 +97,7 @@ public class BookCatalogBenasO implements BookCatalog{
 
     @Override
     public List<Book> filterBooks(Predicate<Book> predicate) {
-        return books;
+        return books.stream().filter(book -> predicate.test(book)).toList();
     }
 
     @Override

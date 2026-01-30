@@ -61,7 +61,9 @@ public class NumbersBenasO implements Exercises {
 
     @Override
     public Map<Integer, Integer> countOccurrences(List<Integer> list) {
-        return Map.of();
+//        HashMap ocurances = new HashMap<>();
+//        list.stream().
+        return null;
     }
 
     @Override
